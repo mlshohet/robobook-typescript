@@ -4,7 +4,7 @@ type Props = {
 	children?: JSX.Element
 }
 
-const Scroll = (props: Props) => {
+const Scroll = (props: Props) : JSX.Element => {
   return (
     <div style={{ overflow: 'scroll', border: '5px solid black', height: '800px'}}>
       {props.children}
