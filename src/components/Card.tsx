@@ -11,8 +11,8 @@ const Card: React.SFC<CardStatelessProps> = ({ name, email, id }) => {
     <div className='tc grow bg-light-green br3 pa3 ma2 dib bw2 shadow-5'>
       <img alt='robots' src={`https://robohash.org/${id}?200x200`} />
       <div>
-        <h2>{name}</h2>
-        <p>{email}</p>
+        <h2>{name}: string</h2>
+        <p>{email}: string</p>
       </div>
     </div>
   );
